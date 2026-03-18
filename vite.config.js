@@ -14,4 +14,13 @@ export default defineConfig({
     host: true,
     port: 5173,
   },
+  preview: {
+    host: true,
+    port: 5173,
+    allowedHosts: [
+      'automotive-detailing-system-frontend.onrender.com',
+      'localhost',
+      '127.0.0.1',
+    ],
+  },
 })
